@@ -1,4 +1,4 @@
-## Hi, I'm Tora
+## Hi, I'm Toranosuke
 
 I build **systems that produce records you can verify** — instead of dashboards you have to trust.
 
