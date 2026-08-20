@@ -98,5 +98,3 @@ your systems and code actually did, usable as supporting evidence in SOC 2 / ISO
   Google and npm. Getting something approved and installable is a different skill from getting it
   working, and I wanted both
 
-**Stack**: TypeScript · Node.js · Next.js · Kotlin · PostgreSQL · Cloudflare Workers · Stripe ·
-tree-sitter · Language Server Protocol · Shopify Functions · Atlassian Forge
