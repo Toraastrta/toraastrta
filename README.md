@@ -88,14 +88,9 @@ your systems and code actually did, usable as supporting evidence in SOC 2 / ISO
 
 ---
 
-### How I tend to build
-
-- **Deterministic over clever.** If a result cannot be reproduced, it cannot be defended. I removed
-  an LLM from the detection path on purpose and replaced it with parsers and rules
-- **Run where the data is.** Local process, inside the customer's Atlassian tenant, inside Shopify's
-  own function runtime — the architecture that doesn't require trust is usually also the simpler one
-- **Ship it.** Seven marketplace reviews across Microsoft, Eclipse, JetBrains, Atlassian, Shopify,
-  Google and npm. Getting something approved and installable is a different skill from getting it
-  working, and I wanted both
+How I tend to build
+Deterministic over clever. If a result cannot be reproduced, it cannot be defended. I removed an LLM from the detection path on purpose and replaced it with parsers and rules
+Run where the data is. A local process, the customer's own Atlassian tenant, Shopify's function runtime. Not sending data anywhere is simpler than securing the pipe that sends it
+Finish it. Getting something reviewed, approved and installable is a different skill from getting it working. Live on the VS Code Marketplace, Open VSX, the Atlassian Marketplace, the Shopify App Store, the Chrome Web Store and npm
   
 
