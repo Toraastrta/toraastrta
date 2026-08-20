@@ -97,4 +97,5 @@ your systems and code actually did, usable as supporting evidence in SOC 2 / ISO
 - **Ship it.** Seven marketplace reviews across Microsoft, Eclipse, JetBrains, Atlassian, Shopify,
   Google and npm. Getting something approved and installable is a different skill from getting it
   working, and I wanted both
-
+  
+**Built with**: TypeScript · Kotlin · tree-sitter · Language Server Protocol · Shopify Functions
