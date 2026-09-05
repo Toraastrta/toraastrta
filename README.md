@@ -80,12 +80,14 @@ source upload, no telemetry. The same code always produces the same findings.
   PHP, Ruby, Java, C#, Rust, Kotlin, C, C++, Scala, Swift
 - **83 CWE rules + 36 secret rules**, plus data-flow (taint) analysis for JavaScript/TypeScript, so
   `db.query("… " + req.query.id)` is reported as SQL injection rather than a string-concat warning
-- **One engine, four surfaces** — the editor, the CLI and CI execute the identical detection code,
-  shared through a Language Server. There is no "editor version" that disagrees with CI
+- **One engine, four surfaces** — VS Code, JetBrains IDEs, the CLI and CI execute the identical
+  detection code, shared through a Language Server. There is no "editor version" that disagrees
+  with CI
 - Findings carry a stable rule id, CWE/OWASP mapping and a content-derived fingerprint, and are
   sealed into a SHA-256 hash chain with Merkle roots so a result can be verified later
 
 [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sphior.sphior-code) ·
+[JetBrains Marketplace](https://plugins.jetbrains.com/plugin/33696-sphior-code) ·
 [Open VSX](https://open-vsx.org/extension/sphior/sphior-code) ·
 **[Source code](https://github.com/Toraastrta/sphior-code)**
 
