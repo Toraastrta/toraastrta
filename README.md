@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.webp" alt="SPHIOR" width="100%">
+</p>
+
 ## Hi, I'm Toranosuke
 
 I'm a full-stack engineer building security and compliance products: an audit evidence platform, a
